@@ -1,7 +1,7 @@
 import { test, expect } from "@jest/globals";
-import { AppRouter, appRouter } from "../../root";
+import { type AppRouter, appRouter } from "../../root";
 import { prisma } from "../../../db";
-import { inferProcedureInput } from "@trpc/server";
+import type { inferProcedureInput } from "@trpc/server";
 
 test("hello test", async () => {
   const caller = appRouter.createCaller(
