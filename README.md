@@ -2,6 +2,10 @@
 
 https://www.youtube.com/watch?v=YRGo1H-qNQs
 
+## Vitest setup with React Testing Lib
+
+https://eternaldev.com/blog/testing-a-react-application-with-vitest
+
 ### npm install
 
 npm i -D jest @types/jest ts-jest jest-mock-extended dotenv ts-node
